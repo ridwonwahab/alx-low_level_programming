@@ -3,7 +3,7 @@
 #include <time.h>
 
 #include <stdio.h>
-
+/*This is the main method*/
 int main(void)
 
 {
