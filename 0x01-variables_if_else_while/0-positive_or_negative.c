@@ -3,7 +3,10 @@
 #include <time.h>
 
 #include <stdio.h>
-/*This is the main method*/
+/** 
+ * main - This is the main method
+ * Return: 0 if all is well, elso nko hmm
+ */
 int main(void)
 
 {
