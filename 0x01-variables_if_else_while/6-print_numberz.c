@@ -2,8 +2,8 @@
 
 /**
  * main - print numbers using putchar
- * Return : 0 if runs
- **/
+ * Return: 0 if runs
+ */
 int main(void)
 {
 int n;
