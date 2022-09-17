@@ -1,17 +1,31 @@
 #include "main.h"
 
+
+
 /**
-* print_numbers - prints number 0 -9
-* Return: void
-*/
+ * print_numbers - prints integer from 0 to 9
+ */
+
+
 
 void print_numbers(void)
-{
-	int i;
 
-	for (i = 0; i <= 9; i++)
+{
+
+	int i = 0;
+
+
+
+	while (i <= 9)
+
 	{
-		_putchar ('0' + i);
+
+		_putchar('0' + i);
+
+		i++;
+
 	}
-	_putchar ('\n');
+
+	_putchar('\n');
+
 }
