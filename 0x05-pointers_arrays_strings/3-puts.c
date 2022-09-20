@@ -1,13 +1,12 @@
-#include "main.h"
+x#include "main.h"
 /**
  *_puts - prints the passed string
  *@str: the passed string
  */
 void _puts(char *str)
 {
-	int i = 0;
 
-	while (*(str + i))
-		_putchar(str + i);
-	i++;
+	while (*str != '\0')
+		_putchar(*str + 0);
+	++str;
 }
