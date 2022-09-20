@@ -1,4 +1,4 @@
-x#include "main.h"
+#include "main.h"
 /**
  *_puts - prints the passed string
  *@str: the passed string
