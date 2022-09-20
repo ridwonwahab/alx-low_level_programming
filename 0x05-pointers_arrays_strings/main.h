@@ -1,9 +1,3 @@
-#ifndef MAIN_H
-
-#define MAIN_H
-
-
-
 /**
  * _putchar - prints the given char
  *@c: the char to be printed
