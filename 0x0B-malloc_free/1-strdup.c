@@ -3,20 +3,27 @@
 
 char *_strdup(char *str)
 {
-	char *s;
-	unsigned int i = 0;
+	char *duplicate;
+	int i, len;
 
 	if (str == NULL)
 		return (NULL);
 
-	s = malloc(sizeof(*str) * sizeof(char));
 
-	while (i < sizeof(*str))
-	{
-		s[i] = str[i];
-	i++;
-	}
+	for (i = 0; str[i]; i++)
+		len++;
 
-	return (s);
 
+	duplicate = malloc((len + 1) * sizeof(char));
+
+
+	if (duplicate == NULL)
+		return (NULL);
+
+	for (i = 0; str[i]; i++)
+		duplicate[i] = str[i];
+
+	duplicate[len] = '\n';
+
+	return (duplicate);
 }
