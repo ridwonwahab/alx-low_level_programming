@@ -1,4 +1,4 @@
-#idndefine
+#ifndefine
 #define
 
 int _putchar(char c);
