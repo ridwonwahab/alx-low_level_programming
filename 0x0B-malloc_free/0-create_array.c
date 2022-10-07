@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- *@c: the character
+ * create_array - Writing a function that creates an array of chars, and initializes it with a specific char
+ * @c : the character
  */
 
 char *create_array(unsigned int size, char c)
